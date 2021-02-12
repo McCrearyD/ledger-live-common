@@ -255,6 +255,13 @@ export const explorerConfig: { [id: CryptoCurrencyIds]: ?Config } = {
       version: "v3",
     },
   },
+  cheap_ethereum: {
+    id: "eth",
+    stable: {
+      base: "EXPLORER",
+      version: "v3",
+    },
+  },
   ethereum_ropsten: {
     id: "eth_ropsten",
     stable: {
